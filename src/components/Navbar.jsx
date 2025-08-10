@@ -3,7 +3,7 @@ import { useState } from "react";
 import { FiSearch, FiX } from "react-icons/fi";
 import { IoIosArrowDown, IoMdMenu } from "react-icons/io";
 
-export default function NavBar() {
+export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(false);
 
