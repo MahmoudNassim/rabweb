@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Hero from "./components/Hero";
 import BrowseListings from "./components/BrowseListings";
 import Navbar from "./components/Navbar";
+import Sell from "./components/Sell";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -16,6 +17,7 @@ function App() {
       <Navbar />
       <Hero />
       <BrowseListings />
+      <Sell />
     </div>
   );
 }
