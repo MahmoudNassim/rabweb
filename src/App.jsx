@@ -6,6 +6,8 @@ import BrowseListings from "./components/BrowseListings";
 import Navbar from "./components/Navbar";
 import Sell from "./components/Sell";
 import Categories from "./components/Categories";
+import Pricing from "./components/Pricing";
+import Footer from "./components/Footer";
 function App() {
   useEffect(() => {
     AOS.init({
@@ -20,6 +22,8 @@ function App() {
       <BrowseListings />
       <Sell />
       <Categories />
+      <Pricing />
+      <Footer />
     </div>
   );
 }
